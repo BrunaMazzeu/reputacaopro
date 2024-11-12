@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Busca por Empresas</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Referência ao arquivo CSS -->
+</head>
+<body>
+    <!-- Container Principal -->
+    <div class="container">
+        <h1>Buscar Empresas com Menos Avaliações</h1>
+
+        <!-- Campo de Pesquisa -->
+        <div class="search-bar">
+            <input type="text" id="keyword" placeholder="Digite o nicho (Ex: pizzaria)">
+            <button onclick="searchBusinesses()">Buscar</button>
+        </div>
+
+        <!-- Resultado da Busca -->
+        <div id="results" class="results-container">
+            <p>Insira um nicho para começar a busca...</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script> <!-- Referência ao arquivo JS -->
+</body>
+</html>
